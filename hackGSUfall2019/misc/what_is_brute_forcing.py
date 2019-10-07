@@ -1,3 +1,9 @@
+/*
+Author: Vuggo
+
+HackGSU Fall 2019
+*/
+
 import socket
 import random 
 
