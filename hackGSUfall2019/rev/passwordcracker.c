@@ -2,8 +2,6 @@
 Author: Immobility
 
 HackGSU Fall 2019
-
-
 */
 
 #include <stdio.h>
