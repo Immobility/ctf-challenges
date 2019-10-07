@@ -26,5 +26,5 @@ int main()
 
 int dontLookInsidePls()
 {
-	printf("I hate coding. GSUCTF{plS_n0_p33KiNg_wh3N_1_c0d3}");
+	printf("I hate coding. GSUCTF{d0t_pE3K!!!}");
 }
