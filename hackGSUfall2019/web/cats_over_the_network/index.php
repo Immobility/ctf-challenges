@@ -3,7 +3,7 @@
 $host = $_GET['host'];
 $port = $_GET['port'];
 
-$conn = $host . ' ' . $port;
+$conn = ' ' . $host . ' ' . $port;
 
 blacklist = array('<','>','script', '%3C', '%3E');
 
