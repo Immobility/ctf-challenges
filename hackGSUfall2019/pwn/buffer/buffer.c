@@ -7,12 +7,16 @@ HackGSU Fall 2019
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define _getENV "thisispass" // hardcoded. Change this to an environmental variable file
-#define aaaaa "GSUCTF{aaADSADA}"
 
 int main(void)
 {
+	FILE *f;
+	char s;
+	f = fopen("flag.txt", "r");
+	
 	char input[16];
 	int pass = 0;
 
@@ -31,13 +35,16 @@ int main(void)
 
 	if (pass)
 	{
-		getpass();
+		printf("\n");
+		while ((s = fgetc(f)) != EOF)
+		{
+			printf("%c", s);
+		}
+		fclose(f);
 	}
 
-	return 0;
-}
+	fflush(stdin);
+	fflush(stdout);
 
-int getpass(void)
-{
-	printf(aaaaa);
+	return 0;
 }
