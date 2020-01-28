@@ -1,0 +1,1 @@
+gsuCTF{netcat_can_sometimes_execute_commands!}

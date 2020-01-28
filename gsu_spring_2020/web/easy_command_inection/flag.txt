@@ -1,0 +1,1 @@
+gsuCTF{command_injection_can_be_simple}
